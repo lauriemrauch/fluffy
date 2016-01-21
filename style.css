@@ -569,6 +569,7 @@ a:active {
 #secondary{
 }
 #main{
+	overflow:auto;
 	padding-top:30px;
 }
 
@@ -706,6 +707,12 @@ a.page-numbers{
     padding: 3px 10px;
     text-decoration: none;
     text-transform: uppercase;
+}
+.post-navigation .nav-previous a:before{
+	content:'\2190 ';
+}
+.post-navigation .nav-next a:after{
+	content:' \2192';
 }
 .nav-previous a:hover, 
 .nav-next a:hover,

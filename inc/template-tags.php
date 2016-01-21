@@ -24,10 +24,10 @@ function cd_posts_navigation() {
 		<div class="nav-links">
 
 			
-			<div class="nav-previous"><?php next_posts_link(__( '&larr; Older posts', 'underscores' ) ); ?></div>
+			<div class="nav-previous"><?php next_posts_link(__( '&larr; Older posts', 'codediva' ) ); ?></div>
 			
 			
-			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'underscores' )  ); ?></div>
+			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'codediva' )  ); ?></div>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
 	<?php
