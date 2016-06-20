@@ -39,7 +39,7 @@
 					)
 				);			
 			} ?>
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span class=""><?php esc_html_e( 'Menu', 'codediva' ); ?></span></button>
+			<button class="menu-toggle" aria-controls="menu-main" aria-expanded="false"><span class=""><?php esc_html_e( 'Menu', 'codediva' ); ?></span></button>
 			<?php wp_nav_menu( array(
 				'theme_location'  => 'primary',
 				'container'       => 'div',
